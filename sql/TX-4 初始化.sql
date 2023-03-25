@@ -1,3 +1,17 @@
+# 8.0.25
+select version();
+
+# InnoDB
+show variables like '%engine%';
+
+# REPEATABLE-READ
+show global variables like '%isolation%';
+
+# ON
+show global variables like 'autocommit';
+
+# set global autocommit = off;
+
 create database transaction_base_prd;
 use transaction_base_prd;
 

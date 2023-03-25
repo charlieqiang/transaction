@@ -1,10 +1,13 @@
 package cn.charlie.transaction.entity.base;
 
+import java.io.Serializable;
+
 /**
  * @author charlie
  * @date 3/23/2023 9:52 PM
  **/
-public class BaseInfoParam {
+public class BaseInfoParam implements Serializable {
+    private static final long serialVersionUID = 4513618728649653465L;
     /**
      * id
      */

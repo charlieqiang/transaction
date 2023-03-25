@@ -15,4 +15,12 @@ public interface BaseMapper {
      * @return 影响条数
      */
     int save(BaseInfo baseInfo);
+
+    /**
+     * 更新
+     *
+     * @param baseInfo 基础信息
+     * @return 影响条数
+     */
+    int update(BaseInfo baseInfo);
 }
