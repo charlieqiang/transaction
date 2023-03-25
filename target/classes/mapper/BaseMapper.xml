@@ -17,4 +17,8 @@
         VALUES (#{baseId}, #{baseCode})
     </insert>
 
+    <update id="update">
+        UPDATE base_info SET base_code = #{baseCode}
+        WHERE base_id = #{baseId}
+    </update>
 </mapper>
